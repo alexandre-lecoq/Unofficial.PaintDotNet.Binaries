@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Unofficial.PaintDotNet.Binaries</id>
+    <version>4.13.6191.1824</version>
+    <authors>Rick Brewster</authors>
+    <owners>Alexandre Lecoq</owners>
+    <projectUrl>https://github.com/alexandre-lecoq/Unofficial.PaintDotNet.Binaries</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Unofficial package containing paint.net binaries for creating effects.</description>
+    <releaseNotes>
+	- 4.13.6191.1824
+    </releaseNotes>
+    <copyright>Copyright (c) 2016 dotPDN LLC</copyright>
+    <tags>paint.net effects binaries</tags>
+  </metadata>
+  <files>
+    <file src="lib/*.*" target="lib/net461" />
+  </files>
+</package>
