@@ -2,22 +2,25 @@
 <package >
   <metadata>
     <id>Unofficial.PaintDotNet.Binaries</id>
-    <version>4.13.6191.1825</version>
+    <version>4.210.7348.40816</version>
     <authors>Rick Brewster</authors>
     <owners>Alexandre Lecoq</owners>
     <projectUrl>https://github.com/alexandre-lecoq/Unofficial.PaintDotNet.Binaries</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Unofficial package containing paint.net binaries for creating effects.</description>
     <releaseNotes>
-	- 4.13.6191.1824
+	- 4.210.7348.40816
     </releaseNotes>
-    <copyright>Copyright (c) 2016 dotPDN LLC</copyright>
+    <copyright>Copyright (c) 2020 dotPDN LLC</copyright>
     <tags>paint.net effects binaries</tags>
 	<packageTypes>
 		<packageType name="Dependency" />
 	</packageTypes>
+	<dependencies>
+      <group targetFramework=".NETFramework4.7" />
+    </dependencies>
   </metadata>
   <files>
-    <file src="lib\**\*.*" target="lib\net461" />
+    <file src="lib\**\*.*" target="lib\net47" />
   </files>
 </package>
